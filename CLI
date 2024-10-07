@@ -1,0 +1,5 @@
+aws s3 sync s3://your-s3-bucket local-folder
+# AWS CLI kullanarak S3'ten veriyi yerel sisteme indirin:
+
+az storage blob upload-batch -d container-name --account-name your-account-name -s local-folder
+# Azure CLI kullanarak veriyi Azure Blob'a yükleyin:
